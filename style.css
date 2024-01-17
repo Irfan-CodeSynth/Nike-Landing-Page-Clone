@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #d0d4d5;
+}
+.col1 img {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 110px;
+}
+
+.col2 ul {
+  display: flex;
+  cursor: pointer;
+}
+
+.col2 ul li {
+  list-style: none;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600px;
+  transition: 0.5s ease all;
+}
+.col2 ul li:hover {
+  color: rgb(139, 206, 67);
+  transition: 0.5s ease all;
+}
+
+.col3 a {
+  color: black;
+  padding: 20px;
+}
+
+/* hero Style  */
+
+.container {
+  height: calc(100vh - 110px);
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  height: 100%;
+  width: 40%;
+  /* background-color: lightgreen; */
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.content h4 {
+  font-size: 15px;
+  color: #5e6466;
+  text-transform: capitalize;
+}
+.content h1 {
+  color: black;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  color: #5e6466;
+  line-height: 20px;
+}
+
+.content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 0px 20px 20px 20px;
+  color: #fff;
+  border-color: transparent;
+  outline: none;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+.cards_row {
+  height: 100%;
+  width: 60%;
+  /* background-color: rgb(193, 213, 77); */
+}
+
+/* Cards style  */
+
+.cards_row{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 20px;
+}
+
+.card_1 {
+  padding: 10px;
+  height: 500px;
+  width: 300px;
+  background-color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.card_1 img {
+  height: 250px;
+  width: 250px;
+}
+
+.shoe-category {
+  background-color: black;
+  height: 50px;
+  /* padding: 10px; */
+  border-radius: 5px 5px 0px 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 0.4px;
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+}
+
+.shoe-title {
+  background-color: black;
+  height: 50px;
+  /* padding: 10px; */
+  border-radius: 5px 5px 0px 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
